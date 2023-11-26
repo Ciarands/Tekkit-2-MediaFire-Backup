@@ -1,0 +1,12 @@
+[Unit]
+Description=Tekkit 2 server backups to MediaFire
+After=syslog.target
+
+[Service]
+Type=simple
+User=tekkit
+WorkingDirectory=/home/opc/Tekkit/
+ExecStart=/bin/bash -lc 'python3 backup.py'
+
+[Install]
+WantedBy=multi-user.target
