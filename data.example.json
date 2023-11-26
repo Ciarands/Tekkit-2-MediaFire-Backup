@@ -1,0 +1,8 @@
+{
+    "email": "user@email.com",
+    "password": "**************",
+    "webhook": "https://canary.discord.com/api/webhooks/**********/***********",
+    "app_id": "",
+    "folder_key": "",
+    "working_dir": "/home/opc/Tekkit/backups/world"
+}
